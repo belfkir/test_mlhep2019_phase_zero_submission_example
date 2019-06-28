@@ -11,7 +11,7 @@ def main():
     df = pd.DataFrame(df, columns=['column 1', 'column 2'])
     df['result'] = df['column 1'] + df['column 2']
     np.savetxt(output_dir + '/data.predict', np.array(df['result']))
-    print "Hello word"
+    print "Hello word 2"
     return 0
 
 if __name__ == "__main__":
